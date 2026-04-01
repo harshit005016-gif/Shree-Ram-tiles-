@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shree Ram Tiles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #f5f5f5;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            position: relative;
+        }
+
+        .hero img {
+            width: 100%;
+            height: auto;
+        }
+
+        .hero-text {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            background: rgba(0,0,0,0.6);
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        /* NAVBAR */
+        nav {
+            background: #111;
+            text-align: center;
+            padding: 12px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 30px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #b30000;
+        }
+
+        /* CARDS */
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        /* GALLERY */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* CONTACT */
+        .contact-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: auto;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .btn {
+            display: inline-block;
+            background: #25D366;
+            color: white;
+            padding: 12px 18px;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border-radius: 10px;
+            border: 0;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <img src="banner.jpg">
+    <div class="hero-text">
+        <h2>Shree Ram Tiles</h2>
+        <p>Premium Tiles, Marble & Sanitary Solutions</p>
+    </div>
+</div>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#location">Location</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Us</h2>
+    <p style="text-align:center;">
+        <b>Owner:</b> Dilleep Sharma <br><br>
+        Shree Ram Tiles is your trusted shop for high-quality tiles, marble, granite, and sanitary items at affordable prices.
+    </p>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products">
+    <h2>Our Products</h2>
+    <div class="cards">
+        <div class="card">Floor Tiles</div>
+        <div class="card">Wall Tiles</div>
+        <div class="card">Marble</div>
+        <div class="card">Granite</div>
+        <div class="card">Sanitary Items</div>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+    <h2>Our Gallery</h2>
+    <div class="gallery">
+        <img src="banner.jpg">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
+        <img src="https://images.unsplash.com/photo-1618220179428-22790b461013">
+        <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea">
+    </div>
+</section>
+
+<!-- LOCATION -->
+<section id="location">
+    <h2>Our Location</h2>
+    <iframe src="https://maps.google.com/maps?q=GVG6+54X,Shantipuram,Phaphamau,Uttar%20Pradesh&output=embed"></iframe>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-box">
+        <p>📍 Shantipuram, Phaphamau, Prayagraj</p>
+        <p>📞 +91 6307108532</p>
+        <p>⏰ 9:00 AM – 9:00 PM</p>
+
+        <a class="btn" href="https://wa.me/916307108532" target="_blank">
+            Chat on WhatsApp
+        </a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Shree Ram Tiles | Designed for Business Growth</p>
+</footer>
+
+</body>
+</html>
